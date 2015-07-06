@@ -117,6 +117,8 @@
 (def ^:private mime-types
   {:json "application/json"
    :json-kw "application/json"
+   :msgpack "application/msgpack"
+   :msgpack-kw "application/msgpack"
    :edn "application/edn"
    :clojure "application/clojure"
    :yaml "application/x-yaml"
